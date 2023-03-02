@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day1 JavaScript</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header><h1>Welcome to Javascript Learning</h1></header>
+
+    <h3>Changing the HTML content by using function</h3>
+    <p id="demo1">A paragraph</p>
+    <button type="button" onClick="myFunction()">Try it</button><br>
+    <br><br>
+    <script src="script.js"></script>
+    
+    <h3>JavaScript Functions</h3>
+    <p id="demo"></p>
+    <script>
+    //document.getElementById("demo").innerHTML = addFunction;
+    document.getElementById("demo").innerHTML = "The addition of two numbers is: "+addFunction(400,342);
+    </script>
+    <h3>Objects Example</h3>
+    <p id="demo2"></p>
+    <script>
+        document.getElementById("demo2").innerHTML = person.fullName()+" is "+person.age+" years old.";
+    </script>
+    <h3>String methods</h3>
+    <p id="demo3"></p>
+    <script>
+        document.getElementById("demo3").innerHTML = part;
+    </script>
+    <h2>Displaying Array elements</h2>
+    <p id="Ope1"></p>
+    <script>
+        document.getElementById("Ope1").innerHTML="Elements in cars: "+cars;
+    </script>
+    <p id="Ope2"></p>
+    <script>
+        document.getElementById("Ope2").innerHTML="Elements in sorted order: "+cars.sort();
+    </script>
+    <p id="Ope3"></p>
+    <script>
+        document.getElementById("Ope3").innerHTML="toString() method: "+cars.toString();
+    </script>
+    <p id="Ope4"></p>
+    <script>
+        document.getElementById("Ope4").innerHTML="Array elements into String: "+cars.join("*");
+    </script>
+ <p id="Ope5"></p>
+ <script>
+    cars.shift();
+     document.getElementById("Ope5").innerHTML="After shifting: "+cars;
+ </script>
+ <p id="Ope6"></p>
+ <script>
+    cars.unshift("Ford");
+     document.getElementById("Ope6").innerHTML="After unshifting: "+cars;
+ </script>
+<p id="Ope7"></p>
+<script>
+   cars[cars.length]="Ferrari";
+    document.getElementById("Ope7").innerHTML="Adding new element using length property: "+cars;
+</script>
+ <p id="Ope8"></p>
+ <script>
+    delete cars[2]
+     document.getElementById("Ope8").innerHTML="After deleting an element at index 2: "+cars[2];
+ </script>
+ <p id="Ope9"></p>
+ <script>
+    cars.splice(2,0,"Jaguar","Jeep"); 
+     document.getElementById("Ope9").innerHTML="Adding and removing using splice : "+cars;
+ </script>
+ <h3>if-else method</h3>
+ <p id="demo4"></p>
+ <script>
+    document.getElementById("demo4").innerHTML = greeting;
+ </script>
+
+    
+</body>
+</html>

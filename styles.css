@@ -1,0 +1,38 @@
+body{
+    background-image:url("https://th.bing.com/th/id/OIP.FJa5GqTTw_93vCHHnRuhjAHaD7?w=304&h=180&c=7&r=0&o=5&pid=1.7");
+    background-size: cover;
+}
+
+h1{
+    background-color: white;
+    border: 5px solid black;
+    border-radius:5px;
+    padding:40px;
+    color:green;
+    text-align: center;
+}
+h2,h3{
+    border-style: dotted;
+    border-width: 3px;
+    border-color: azure;
+    margin-left:200px;
+    margin-right:200px;
+    padding:10px;
+    color:blue;
+    text-align: center;
+}
+
+p{
+    text-align:center;
+    font-size: 25px;
+    font-style: italic;
+}
+button{
+ width:300px;
+ margin-left:40%;
+ margin-right: 40%;
+ font-size: 30px;
+ padding:10px;
+ background-color: blue;
+ color:white;
+}
